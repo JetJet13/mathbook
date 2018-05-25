@@ -64,8 +64,13 @@
     "sinon": "^4.1.3"
   },
   "lint-staged": {
-    "*.js": ["eslint --fix"],
-    "*.{js,json,css}": ["prettier --write", "git add"]
+    "*.js": [
+      "eslint --fix"
+    ],
+    "*.{js,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "snyk": true
 }
