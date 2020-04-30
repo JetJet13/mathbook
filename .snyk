@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -12,3 +12,14 @@ patch:
   'npm:request:20160119':
     - github-oauth > request:
         patched: '2018-01-07T16:34:19.511Z'
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-04-30T23:42:41.871Z'
+    - github > lodash:
+        patched: '2020-04-30T23:42:41.871Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-04-30T23:42:41.871Z'
+    - snyk > snyk-resolve-deps > lodash:
+        patched: '2020-04-30T23:42:41.871Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-04-30T23:42:41.871Z'
