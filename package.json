@@ -18,7 +18,7 @@
     "bunyan": "^1.8.12",
     "bunyan-request": "^1.2.0",
     "chartist": "^0.11.0",
-    "convict": "^4.0.2",
+    "convict": "^6.0.0",
     "cookie-parser": "~1.4.3",
     "express": "~4.16.2",
     "github": "^13.0.1",
